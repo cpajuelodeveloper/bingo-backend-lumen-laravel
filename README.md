@@ -135,3 +135,19 @@ Go to the browser and open  **localhost:3000** and complete with the following u
     //errors response
     { "error": "cards not set"}
     ```
+
+> ### [GET]
+> ## reset game [/bingo/reset]
++ Response 200 (application/json) 
+    ```JSON
+    {
+        "success": true,
+        "message": "game reset"
+    }
+
+    //errors response
+    {
+        "success": false,
+        "message": "game already reset"
+    }
+    ```
